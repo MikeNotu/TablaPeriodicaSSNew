@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +16,15 @@ public class MainActivity extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), ListActivity.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
+        Button next2 = (Button) findViewById(R.id.Button02);
+        next2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), TableActivity.class);
                 startActivityForResult(myIntent, 0);
             }
 
