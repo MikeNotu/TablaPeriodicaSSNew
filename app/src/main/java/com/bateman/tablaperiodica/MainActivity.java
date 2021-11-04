@@ -1,7 +1,8 @@
 package com.bateman.tablaperiodica;
 
 import android.media.MediaPlayer;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -50,24 +51,19 @@ public class MainActivity extends AppCompatActivity {
         });
 
         /*ArrayList<String> arrayList=new ArrayList<>();
-
         arrayList.add("Actinio");
         arrayList.add("Aluminio");
         arrayList.add("Americio");
         arrayList.add("Antimonio");
         arrayList.add("Argon");
-
         ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
-
         final MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.notification_sound_effect);
         final MediaPlayer mediaPlayer2 = MediaPlayer.create(this,R.raw.notification_sound_effect2);
-
         final MediaPlayer tp_1 = MediaPlayer.create(this,R.raw.actinio);
         final MediaPlayer tp_2 = MediaPlayer.create(this,R.raw.aluminio);
         final MediaPlayer tp_3 = MediaPlayer.create(this,R.raw.americio);
         final MediaPlayer tp_4 = MediaPlayer.create(this,R.raw.antimonio);
         final MediaPlayer tp_5 = MediaPlayer.create(this,R.raw.argon);
-
         listView.setAdapter((arrayAdapter));
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -89,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
                     tp_5.start();
                 }
             }
-
             private void stopPlaying() {
                 if (tp_1 != null) {
                     tp_1.stop();
@@ -102,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         buttonAudio = findViewById(R.id.buttonAudio);
-
         buttonAudio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
