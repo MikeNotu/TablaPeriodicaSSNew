@@ -2,6 +2,7 @@ package com.bateman.tablaperiodica;
 
 import android.media.MediaPlayer;
 import androidx.appcompat.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,7 @@ public class ListActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
     private Button buttonAudio;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,7 @@ public class ListActivity extends AppCompatActivity {
         listView=(ListView)findViewById(R.id.listview);
         arrayList = new ArrayList<String>();
         Field[] fields = R.raw.class.getFields();
+
 
         for (int i =0;i<fields.length;i++){
             arrayList.add(fields[i].getName());
