@@ -24,16 +24,31 @@
         android:layout_height="wrap_content"
         android:divider="@null"
         android:layout_below="@+id/title_act_list"
-
+        android:layout_above="@+id/m_button_layout"
         />
 
-    <!--    <TextView-->
-    <!--        android:id="@+id/textView"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_centerHorizontal="true"-->
-    <!--        android:layout_centerVertical="true"-->
-    <!--        android:text="Hola"-->
-    <!--        ></TextView>-->
-
+    <LinearLayout
+        android:id="@+id/m_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#20000000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/btn_white"
+            android:textColor="#941BA8"
+            android:text="MENÚ"/>
+        <Button
+            android:id="@+id/btn_tabla"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_white"
+            android:textColor="#941BA8"
+            android:text="TABLA"/>
+    </LinearLayout>
 </RelativeLayout>

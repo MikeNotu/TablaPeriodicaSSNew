@@ -8,22 +8,44 @@
     <HorizontalScrollView
         android:id="@+id/scrollView"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/m_button_layout"
+        android:layout_marginBottom="46dp">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            //xml code
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Table"
-                android:textSize="700dp"
-                />
-
+                android:textSize="700dp" />
         </ScrollView>
     </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/m_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#20000000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btn_menu2"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/btn_white"
+            android:textColor="#941BA8"
+            android:text="MENÚ"/>
+        <Button
+            android:id="@+id/btn_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_white"
+            android:textColor="#941BA8"
+            android:text="LISTA"/>
+    </LinearLayout>
 
 
 
