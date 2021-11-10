@@ -38,7 +38,7 @@ public class ListActivity extends AppCompatActivity {
             arrayList.add(fields[i].getName());
         }
 
-        asniAdapter= new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
+        asniAdapter= new ArrayAdapter(this, R.layout.simple_list_1,arrayList);
         listView.setAdapter(asniAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

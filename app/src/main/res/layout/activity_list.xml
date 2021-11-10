@@ -6,13 +6,26 @@
     tools:context=".ListActivity"
     android:background="@drawable/bg" >
 
+    <TextView
+        android:id="@+id/title_act_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTA DE ELEMENTOS"
+        android:paddingVertical="10sp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        />
     <ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp"
-        android:divider="@null"/>
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:layout_below="@+id/title_act_list"
+
+        />
 
     <!--    <TextView-->
     <!--        android:id="@+id/textView"-->
