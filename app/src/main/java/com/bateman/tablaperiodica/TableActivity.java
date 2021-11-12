@@ -32,14 +32,25 @@ public class TableActivity extends AppCompatActivity {
             }
         });
         Button b2 = (Button) findViewById(R.id.btn_lista);
-        b2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), ListActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-                overridePendingTransition(0,0);
-            }
+        b2.setOnClickListener(view -> {
+            Intent intent = new Intent(view.getContext(), ListActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+            overridePendingTransition(0,0);
         });
+
+        Button one = this.findViewById(R.id.e1);
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.actinio);
+        one.setOnClickListener(v -> mp.start());
+
     }
+    //https://stackoverflow.com/questions/5706942/possibility-to-add-parameters-in-button-xml
+    /*<ImageButton (...) android:onClick="goToPage" android:tag="25"/>
+
+    public void goToPage(View v) {
+        String pageNumber = v.getTag().toString();
+    }*/
+    //https://stackoverflow.com/questions/25905086/multiple-buttons-onclicklistener-android
+    // buscar una forma de enviar el
 }
