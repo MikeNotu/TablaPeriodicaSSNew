@@ -1,7 +1,9 @@
 package com.bateman.tablaperiodica;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import androidx.appcompat.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +24,7 @@ public class ListActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
     private Button buttonAudio;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,11 +34,12 @@ public class ListActivity extends AppCompatActivity {
         arrayList = new ArrayList<String>();
         Field[] fields = R.raw.class.getFields();
 
+
         for (int i =0;i<fields.length;i++){
             arrayList.add(fields[i].getName());
         }
 
-        asniAdapter= new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
+        asniAdapter= new ArrayAdapter(this, R.layout.simple_list_1,arrayList);
         listView.setAdapter(asniAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -47,6 +51,27 @@ public class ListActivity extends AppCompatActivity {
                 int resId = getResources().getIdentifier(arrayList.get(i),"raw",getPackageName());
                 mediaPlayer = MediaPlayer.create(ListActivity.this,resId);
                 mediaPlayer.start();
+            }
+        });
+
+        Button b1 = (Button) findViewById(R.id.btn_menu);
+        b1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), MainActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+                overridePendingTransition(0,0);
+            }
+        });
+        Button b2 = (Button) findViewById(R.id.btn_tabla);
+        b2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), TableActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+                overridePendingTransition(0,0);
             }
         });
 
