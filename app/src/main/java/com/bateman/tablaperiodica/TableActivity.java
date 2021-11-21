@@ -40,13 +40,13 @@ public class TableActivity extends AppCompatActivity {
             overridePendingTransition(0,0);
         });
 
-        Button one = this.findViewById(R.id.e1);
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.actinio);
-        one.setOnClickListener(v -> mp.start());
+        Button h = this.findViewById(R.id.e001);
+        final MediaPlayer mp001 = MediaPlayer.create(this, R.raw.hidrogeno);
+        h.setOnClickListener(v001 -> mp001.start());
 
-        Button two = this.findViewById(R.id.e2);
-        final MediaPlayer mp2 = MediaPlayer.create(this, R.raw.hidrogeno);
-        two.setOnClickListener(v2 -> mp2.start());
+        Button li = this.findViewById(R.id.e003);
+        final MediaPlayer mp003 = MediaPlayer.create(this, R.raw.litio);
+        li.setOnClickListener(v003 -> mp003.start());
 
     }
     //https://stackoverflow.com/questions/5706942/possibility-to-add-parameters-in-button-xml
