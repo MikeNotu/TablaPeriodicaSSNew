@@ -44,6 +44,10 @@ public class TableActivity extends AppCompatActivity {
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.actinio);
         one.setOnClickListener(v -> mp.start());
 
+        Button two = this.findViewById(R.id.e2);
+        final MediaPlayer mp2 = MediaPlayer.create(this, R.raw.hidrogeno);
+        two.setOnClickListener(v2 -> mp2.start());
+
     }
     //https://stackoverflow.com/questions/5706942/possibility-to-add-parameters-in-button-xml
     /*<ImageButton (...) android:onClick="goToPage" android:tag="25"/>

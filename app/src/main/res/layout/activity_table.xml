@@ -77,6 +77,8 @@
                     android:orientation="horizontal"
                     android:layout_marginTop="10dp">
                     <Button
+                        android:onClick="v2==this.id"
+                        android:id="@+id/e2"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:text="1\nHE\nhelio"
