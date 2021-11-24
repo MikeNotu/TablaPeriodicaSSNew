@@ -44,6 +44,10 @@ public class TableActivity extends AppCompatActivity {
         final MediaPlayer mp001 = MediaPlayer.create(this, R.raw.hidrogeno);
         h.setOnClickListener(v001 -> mp001.start());
 
+        Button he = this.findViewById(R.id.e002);
+        final MediaPlayer mp002 = MediaPlayer.create(this, R.raw.helio);
+        he.setOnClickListener(v002 -> mp002.start());
+
         Button li = this.findViewById(R.id.e003);
         final MediaPlayer mp003 = MediaPlayer.create(this, R.raw.litio);
         li.setOnClickListener(v003 -> mp003.start());
