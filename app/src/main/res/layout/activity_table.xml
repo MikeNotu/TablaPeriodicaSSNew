@@ -579,6 +579,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e042"
+                        android:onClick="v042==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -589,6 +591,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e043"
+                        android:onClick="v043==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -599,6 +603,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e044"
+                        android:onClick="v044==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -609,6 +615,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e045"
+                        android:onClick="v045==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -619,6 +627,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e046"
+                        android:onClick="v046==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -629,6 +639,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e047"
+                        android:onClick="v047==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -639,6 +651,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e048"
+                        android:onClick="v048==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -649,6 +663,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e049"
+                        android:onClick="v049==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -659,6 +675,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e050"
+                        android:onClick="v050==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
