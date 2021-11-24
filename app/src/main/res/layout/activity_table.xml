@@ -61,7 +61,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nHelio"
+                        android:text="1\nHE\nHidrógeno"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -72,7 +72,7 @@
                         android:layout_marginStart="1535dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="2\nHe\nhelio"
+                        android:text="2\nHe\nHelio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -246,7 +246,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="15\nP\nFósforo"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -258,7 +258,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="16\nS\nAzufre"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -270,7 +270,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="17\nCl\nCloro"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -282,7 +282,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="18\nHE\nArgón"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -303,7 +303,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="19\nK\nPotasio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -315,7 +315,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="20\nCa\nCalcio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -326,7 +326,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="21\nSc\nEscandio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -338,7 +338,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="22\nTi\nTitanio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -350,7 +350,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="23\nHE\nhelio"
+                        android:text="23\nV\nVanadio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -362,7 +362,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="24\nHE\nhelio"
+                        android:text="24\nCr\nCromo"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -370,13 +370,13 @@
                         android:id="@+id/e025"
                         android:onClick="v025==this.id"
                         android:layout_width="80dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="25\nMn\nManganeso"
                         android:textColor="@color/white"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
                     <Button
                         android:id="@+id/e026"
@@ -386,7 +386,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="26\nFe\nHierro"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -398,7 +398,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="27\nHE\nhelio"
+                        android:text="27\nCo\nCobalto"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -410,7 +410,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="28\nNi\nNíquel"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -422,7 +422,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="29\nCu\nCobre"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -434,7 +434,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="30\nHE\nhelio"
+                        android:text="30\nZn\nZinc"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -446,7 +446,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="31\nGa\nGalio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -458,7 +458,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="32\nHE\nGermanio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -470,7 +470,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="33\nAs\nArsénio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -482,7 +482,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="34\nSe\nSelenio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -494,7 +494,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="35\nBr\nBromo"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -506,7 +506,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="36\nKr\nKriptón"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -526,7 +526,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="37\nHE\nhelio"
+                        android:text="37\nRb\nRubidio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -534,13 +534,13 @@
                         android:id="@+id/e038"
                         android:onClick="v038==this.id"
                         android:layout_width="80dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="38\nSr\nEstroncio"
                         android:textColor="@color/white"
-                        android:textSize="15sp" />
+                        android:textSize="13sp" />
 
                     <Button
                         android:id="@+id/e039"
@@ -550,7 +550,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="39\nY\nItrio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -562,7 +562,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="40\nZr\nZirconio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -574,7 +574,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="41\nNb\nNiobio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -582,13 +582,13 @@
                         android:id="@+id/e042"
                         android:onClick="v042==this.id"
                         android:layout_width="80dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="42\nMo\nMolibdeno"
                         android:textColor="@color/white"
-                        android:textSize="15sp" />
+                        android:textSize="13sp" />
 
                     <Button
                         android:id="@+id/e043"
@@ -598,7 +598,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="43\nTc\nTecnecio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -610,7 +610,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="44\nRu\nRutenio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -622,7 +622,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="45\nRh\nRodio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -634,7 +634,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="46\nPd\nPaladio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -646,7 +646,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="47\nAg\nPlata"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -658,7 +658,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="48\nCd\nCadmio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -670,7 +670,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="49\nIn\nIndio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -682,7 +682,7 @@
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="50\nSn\nEstaño"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
