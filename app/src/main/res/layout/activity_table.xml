@@ -57,13 +57,13 @@
                         android:id="@+id/e001"
                         android:onClick="v001==this.id"
                         android:layout_width="80dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
                         android:text="1\nHE\nHidrógeno"
                         android:textColor="@color/white"
-                        android:textSize="15sp" />
+                        android:textSize="11sp" />
 
                     <Button
                         android:id="@+id/e002"
@@ -690,13 +690,13 @@
                         android:id="@+id/e051"
                         android:onClick="v051==this.id"
                         android:layout_width="80dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
                         android:text="51\nSb\nAntimonio"
                         android:textColor="@color/white"
-                        android:textSize="15sp" />
+                        android:textSize="11sp" />
 
                     <Button
                         android:id="@+id/e052"
@@ -994,13 +994,13 @@
                         android:id="@+id/e103"
                         android:onClick="v103==this.id"
                         android:layout_width="80dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
                         android:text="103\nLr\nLaurencio"
                         android:textColor="@color/white"
-                        android:textSize="15sp" />
+                        android:textSize="11sp" />
 
                     <Button
                         android:id="@+id/e104"
@@ -1030,13 +1030,13 @@
                         android:id="@+id/e106"
                         android:onClick="v106==this.id"
                         android:layout_width="80dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
                         android:text="106\nSg\nSeaborgio"
                         android:textColor="@color/white"
-                        android:textSize="15sp" />
+                        android:textSize="11sp" />
 
                     <Button
                         android:id="@+id/e107"
