@@ -240,277 +240,277 @@ public class TableActivity extends AppCompatActivity {
         final MediaPlayer mp050 = MediaPlayer.create(this, R.raw.estano);
         sn.setOnClickListener(v050 -> mp050.start());
 
-        Button h = this.findViewById(R.id.e051);
+        Button sb = this.findViewById(R.id.e051);
         final MediaPlayer mp051 = MediaPlayer.create(this, R.raw.hidrogeno);
-        h.setOnClickListener(v051 -> mp051.start());
+        sb.setOnClickListener(v051 -> mp051.start());
 
-        Button he = this.findViewById(R.id.e052);
+        Button te = this.findViewById(R.id.e052);
         final MediaPlayer mp052 = MediaPlayer.create(this, R.raw.helio);
-        he.setOnClickListener(v052 -> mp052.start());
+        te.setOnClickListener(v052 -> mp052.start());
 
-        Button li = this.findViewById(R.id.e053);
+        Button i = this.findViewById(R.id.e053);
         final MediaPlayer mp053 = MediaPlayer.create(this, R.raw.litio);
-        li.setOnClickListener(v053 -> mp053.start());
+        i.setOnClickListener(v053 -> mp053.start());
 
-        Button be = this.findViewById(R.id.e054);
+        Button xe = this.findViewById(R.id.e054);
         final MediaPlayer mp054 = MediaPlayer.create(this, R.raw.berilio);
-        be.setOnClickListener(v054 -> mp054.start());
+        xe.setOnClickListener(v054 -> mp054.start());
 
-        Button b = this.findViewById(R.id.e055);
+        Button cs = this.findViewById(R.id.e055);
         final MediaPlayer mp055 = MediaPlayer.create(this, R.raw.boro);
-        b.setOnClickListener(v055 -> mp055.start());
+        cs.setOnClickListener(v055 -> mp055.start());
 
-        Button c = this.findViewById(R.id.e056);
+        Button ba = this.findViewById(R.id.e056);
         final MediaPlayer mp056 = MediaPlayer.create(this, R.raw.carbono);
-        c.setOnClickListener(v056 -> mp056.start());
+        ba.setOnClickListener(v056 -> mp056.start());
 
-        Button n = this.findViewById(R.id.e057);
+        Button la = this.findViewById(R.id.e057);
         final MediaPlayer mp057 = MediaPlayer.create(this, R.raw.nitrogeno);
-        n.setOnClickListener(v057 -> mp057.start());
+        la.setOnClickListener(v057 -> mp057.start());
 
-        Button o = this.findViewById(R.id.e058);
+        Button ce = this.findViewById(R.id.e058);
         final MediaPlayer mp058 = MediaPlayer.create(this, R.raw.oxigeno);
-        o.setOnClickListener(v058 -> mp058.start());
+        ce.setOnClickListener(v058 -> mp058.start());
 
-        Button f = this.findViewById(R.id.e059);
+        Button pr = this.findViewById(R.id.e059);
         final MediaPlayer mp059 = MediaPlayer.create(this, R.raw.fluor);
-        f.setOnClickListener(v059 -> mp059.start());
+        pr.setOnClickListener(v059 -> mp059.start());
 
-        Button ne = this.findViewById(R.id.e060);
+        Button nd = this.findViewById(R.id.e060);
         final MediaPlayer mp060 = MediaPlayer.create(this, R.raw.neon);
-        ne.setOnClickListener(v060 -> mp060.start());
+        nd.setOnClickListener(v060 -> mp060.start());
 
-        Button na = this.findViewById(R.id.e061);
+        Button pm = this.findViewById(R.id.e061);
         final MediaPlayer mp061 = MediaPlayer.create(this, R.raw.sodio);
-        na.setOnClickListener(v061 -> mp061.start());
+        pm.setOnClickListener(v061 -> mp061.start());
 
-        Button mg = this.findViewById(R.id.e062);
+        Button sm = this.findViewById(R.id.e062);
         final MediaPlayer mp062 = MediaPlayer.create(this, R.raw.magnesio);
-        mg.setOnClickListener(v062 -> mp062.start());
+        sm.setOnClickListener(v062 -> mp062.start());
 
-        Button al = this.findViewById(R.id.e063);
+        Button eu = this.findViewById(R.id.e063);
         final MediaPlayer mp063 = MediaPlayer.create(this, R.raw.aluminio);
-        al.setOnClickListener(v063 -> mp063.start());
+        eu.setOnClickListener(v063 -> mp063.start());
 
-        Button si = this.findViewById(R.id.e064);
+        Button gd = this.findViewById(R.id.e064);
         final MediaPlayer mp064 = MediaPlayer.create(this, R.raw.silicio);
-        si.setOnClickListener(v064 -> mp064.start());
+        gd.setOnClickListener(v064 -> mp064.start());
 
-        Button p = this.findViewById(R.id.e065);
+        Button tb = this.findViewById(R.id.e065);
         final MediaPlayer mp065 = MediaPlayer.create(this, R.raw.fosforo);
-        p.setOnClickListener(v065 -> mp065.start());
+        tb.setOnClickListener(v065 -> mp065.start());
 
-        Button s = this.findViewById(R.id.e066);
+        Button dy = this.findViewById(R.id.e066);
         final MediaPlayer mp066 = MediaPlayer.create(this, R.raw.azufre);
-        s.setOnClickListener(v066 -> mp066.start());
+        dy.setOnClickListener(v066 -> mp066.start());
 
-        Button cl = this.findViewById(R.id.e067);
+        Button ho = this.findViewById(R.id.e067);
         final MediaPlayer mp067 = MediaPlayer.create(this, R.raw.cloro);
-        cl.setOnClickListener(v067 -> mp067.start());
+        ho.setOnClickListener(v067 -> mp067.start());
 
-        Button ar = this.findViewById(R.id.e068);
+        Button er = this.findViewById(R.id.e068);
         final MediaPlayer mp068 = MediaPlayer.create(this, R.raw.argon);
-        ar.setOnClickListener(v068 -> mp068.start());
+        er.setOnClickListener(v068 -> mp068.start());
 
-        Button k = this.findViewById(R.id.e069);
+        Button tm = this.findViewById(R.id.e069);
         final MediaPlayer mp069 = MediaPlayer.create(this, R.raw.potasio);
-        k.setOnClickListener(v069 -> mp069.start());
+        tm.setOnClickListener(v069 -> mp069.start());
 
-        Button ca = this.findViewById(R.id.e070);
+        Button yb = this.findViewById(R.id.e070);
         final MediaPlayer mp070 = MediaPlayer.create(this, R.raw.calcio);
-        ca.setOnClickListener(v070 -> mp070.start());
+        yb.setOnClickListener(v070 -> mp070.start());
 
-        Button sc = this.findViewById(R.id.e071);
+        Button lu = this.findViewById(R.id.e071);
         final MediaPlayer mp071 = MediaPlayer.create(this, R.raw.escandio);
-        sc.setOnClickListener(v071 -> mp071.start());
+        lu.setOnClickListener(v071 -> mp071.start());
 
-        Button ti = this.findViewById(R.id.e072);
+        Button hf = this.findViewById(R.id.e072);
         final MediaPlayer mp072 = MediaPlayer.create(this, R.raw.titanio);
-        ti.setOnClickListener(v072 -> mp072.start());
+        hf.setOnClickListener(v072 -> mp072.start());
 
-        Button v = this.findViewById(R.id.e073);
+        Button ta = this.findViewById(R.id.e073);
         final MediaPlayer mp073 = MediaPlayer.create(this, R.raw.vanadio);
-        v.setOnClickListener(v073 -> mp073.start());
+        ta.setOnClickListener(v073 -> mp073.start());
 
-        Button cr = this.findViewById(R.id.e074);
+        Button w = this.findViewById(R.id.e074);
         final MediaPlayer mp074 = MediaPlayer.create(this, R.raw.cromo);
-        cr.setOnClickListener(v074 -> mp074.start());
+        w.setOnClickListener(v074 -> mp074.start());
 
-        Button mn = this.findViewById(R.id.e075);
+        Button re = this.findViewById(R.id.e075);
         final MediaPlayer mp075 = MediaPlayer.create(this, R.raw.manganeso);
-        mn.setOnClickListener(v075 -> mp075.start());
+        re.setOnClickListener(v075 -> mp075.start());
 
-        Button fe = this.findViewById(R.id.e076);
+        Button os = this.findViewById(R.id.e076);
         final MediaPlayer mp076 = MediaPlayer.create(this, R.raw.hierro);
-        fe.setOnClickListener(v076 -> mp076.start());
+        os.setOnClickListener(v076 -> mp076.start());
 
-        Button co = this.findViewById(R.id.e077);
+        Button ir = this.findViewById(R.id.e077);
         final MediaPlayer mp077 = MediaPlayer.create(this, R.raw.cobalto);
-        co.setOnClickListener(v077 -> mp077.start());
+        ir.setOnClickListener(v077 -> mp077.start());
 
-        Button ni = this.findViewById(R.id.e078);
+        Button pt = this.findViewById(R.id.e078);
         final MediaPlayer mp078 = MediaPlayer.create(this, R.raw.niquel);
-        ni.setOnClickListener(v078 -> mp078.start());
+        pt.setOnClickListener(v078 -> mp078.start());
 
-        Button cu = this.findViewById(R.id.e079);
+        Button au = this.findViewById(R.id.e079);
         final MediaPlayer mp079 = MediaPlayer.create(this, R.raw.cobre);
-        cu.setOnClickListener(v079 -> mp079.start());
+        au.setOnClickListener(v079 -> mp079.start());
 
-        Button zn = this.findViewById(R.id.e080);
+        Button hg = this.findViewById(R.id.e080);
         final MediaPlayer mp080 = MediaPlayer.create(this, R.raw.zinc);
-        zn.setOnClickListener(v080 -> mp080.start());
+        hg.setOnClickListener(v080 -> mp080.start());
 
-        Button ga = this.findViewById(R.id.e081);
+        Button ti = this.findViewById(R.id.e081);
         final MediaPlayer mp081 = MediaPlayer.create(this, R.raw.galio);
-        ga.setOnClickListener(v081 -> mp081.start());
+        ti.setOnClickListener(v081 -> mp081.start());
 
-        Button ge = this.findViewById(R.id.e082);
+        Button pb = this.findViewById(R.id.e082);
         final MediaPlayer mp082 = MediaPlayer.create(this, R.raw.germanio);
-        ge.setOnClickListener(v082 -> mp082.start());
+        pb.setOnClickListener(v082 -> mp082.start());
 
-        Button as = this.findViewById(R.id.e083);
+        Button bi = this.findViewById(R.id.e083);
         final MediaPlayer mp083 = MediaPlayer.create(this, R.raw.arsenico);
-        as.setOnClickListener(v083 -> mp083.start());
+        bi.setOnClickListener(v083 -> mp083.start());
 
-        Button se = this.findViewById(R.id.e084);
+        Button po = this.findViewById(R.id.e084);
         final MediaPlayer mp084 = MediaPlayer.create(this, R.raw.selenio);
-        se.setOnClickListener(v084 -> mp084.start());
+        po.setOnClickListener(v084 -> mp084.start());
 
-        Button br = this.findViewById(R.id.e085);
+        Button at = this.findViewById(R.id.e085);
         final MediaPlayer mp085 = MediaPlayer.create(this, R.raw.bromo);
-        br.setOnClickListener(v085 -> mp085.start());
+        at.setOnClickListener(v085 -> mp085.start());
 
-        Button kr = this.findViewById(R.id.e086);
+        Button rn = this.findViewById(R.id.e086);
         final MediaPlayer mp086 = MediaPlayer.create(this, R.raw.kripton);
-        kr.setOnClickListener(v086 -> mp086.start());
+        rn.setOnClickListener(v086 -> mp086.start());
 
-        Button rb = this.findViewById(R.id.e087);
+        Button fr = this.findViewById(R.id.e087);
         final MediaPlayer mp087 = MediaPlayer.create(this, R.raw.rubidio);
-        rb.setOnClickListener(v087 -> mp087.start());
+        fr.setOnClickListener(v087 -> mp087.start());
 
-        Button sr = this.findViewById(R.id.e088);
+        Button ra = this.findViewById(R.id.e088);
         final MediaPlayer mp088 = MediaPlayer.create(this, R.raw.estroncio);
-        sr.setOnClickListener(v088 -> mp088.start());
+        ra.setOnClickListener(v088 -> mp088.start());
 
-        Button y = this.findViewById(R.id.e089);
+        Button ac = this.findViewById(R.id.e089);
         final MediaPlayer mp089 = MediaPlayer.create(this, R.raw.itrio);
-        y.setOnClickListener(v089 -> mp089.start());
+        ac.setOnClickListener(v089 -> mp089.start());
 
-        Button zr = this.findViewById(R.id.e090);
+        Button th = this.findViewById(R.id.e090);
         final MediaPlayer mp090 = MediaPlayer.create(this, R.raw.circonio);
-        zr.setOnClickListener(v090 -> mp090.start());
+        th.setOnClickListener(v090 -> mp090.start());
 
-        Button nb = this.findViewById(R.id.e091);
+        Button pa = this.findViewById(R.id.e091);
         final MediaPlayer mp091 = MediaPlayer.create(this, R.raw.niobio);
-        nb.setOnClickListener(v091 -> mp091.start());
+        pa.setOnClickListener(v091 -> mp091.start());
 
-        Button mo = this.findViewById(R.id.e092);
+        Button u = this.findViewById(R.id.e092);
         final MediaPlayer mp092 = MediaPlayer.create(this, R.raw.molibdeno);
-        mo.setOnClickListener(v092 -> mp092.start());
+        u.setOnClickListener(v092 -> mp092.start());
 
-        Button tc = this.findViewById(R.id.e093);
+        Button np = this.findViewById(R.id.e093);
         final MediaPlayer mp093 = MediaPlayer.create(this, R.raw.tecnecio);
-        tc.setOnClickListener(v093 -> mp093.start());
+        np.setOnClickListener(v093 -> mp093.start());
 
-        Button ru = this.findViewById(R.id.e094);
+        Button pu = this.findViewById(R.id.e094);
         final MediaPlayer mp094 = MediaPlayer.create(this, R.raw.rutenio);
-        ru.setOnClickListener(v094 -> mp094.start());
+        pu.setOnClickListener(v094 -> mp094.start());
 
-        Button rh = this.findViewById(R.id.e095);
+        Button am = this.findViewById(R.id.e095);
         final MediaPlayer mp095 = MediaPlayer.create(this, R.raw.rodio);
-        rh.setOnClickListener(v095 -> mp095.start());
+        am.setOnClickListener(v095 -> mp095.start());
 
-        Button pd = this.findViewById(R.id.e096);
+        Button cm = this.findViewById(R.id.e096);
         final MediaPlayer mp096 = MediaPlayer.create(this, R.raw.paladio);
-        pd.setOnClickListener(v096 -> mp096.start());
+        cm.setOnClickListener(v096 -> mp096.start());
 
-        Button ag = this.findViewById(R.id.e097);
+        Button bk = this.findViewById(R.id.e097);
         final MediaPlayer mp097 = MediaPlayer.create(this, R.raw.plata);
-        ag.setOnClickListener(v097 -> mp097.start());
+        bk.setOnClickListener(v097 -> mp097.start());
 
-        Button cd = this.findViewById(R.id.e098);
+        Button cf = this.findViewById(R.id.e098);
         final MediaPlayer mp098 = MediaPlayer.create(this, R.raw.cadmio);
-        cd.setOnClickListener(v098 -> mp098.start());
+        cf.setOnClickListener(v098 -> mp098.start());
 
-        Button in = this.findViewById(R.id.e099);
+        Button es = this.findViewById(R.id.e099);
         final MediaPlayer mp099 = MediaPlayer.create(this, R.raw.indio);
-        in.setOnClickListener(v099 -> mp099.start());
+        es.setOnClickListener(v099 -> mp099.start());
 
-        Button sn = this.findViewById(R.id.e100);
+        Button fm = this.findViewById(R.id.e100);
         final MediaPlayer mp100 = MediaPlayer.create(this, R.raw.estano);
-        sn.setOnClickListener(v100 -> mp100.start());
+        fm.setOnClickListener(v100 -> mp100.start());
 
-        Button h = this.findViewById(R.id.e101);
+        Button md = this.findViewById(R.id.e101);
         final MediaPlayer mp101 = MediaPlayer.create(this, R.raw.hidrogeno);
-        h.setOnClickListener(v101 -> mp101.start());
+        md.setOnClickListener(v101 -> mp101.start());
 
-        Button he = this.findViewById(R.id.e102);
+        Button no = this.findViewById(R.id.e102);
         final MediaPlayer mp102 = MediaPlayer.create(this, R.raw.helio);
-        he.setOnClickListener(v102 -> mp102.start());
+        no.setOnClickListener(v102 -> mp102.start());
 
-        Button li = this.findViewById(R.id.e103);
+        Button lr = this.findViewById(R.id.e103);
         final MediaPlayer mp103 = MediaPlayer.create(this, R.raw.litio);
-        li.setOnClickListener(v103 -> mp103.start());
+        lr.setOnClickListener(v103 -> mp103.start());
 
-        Button be = this.findViewById(R.id.e104);
+        Button rf = this.findViewById(R.id.e104);
         final MediaPlayer mp104 = MediaPlayer.create(this, R.raw.berilio);
-        be.setOnClickListener(v104 -> mp104.start());
+        rf.setOnClickListener(v104 -> mp104.start());
 
-        Button b = this.findViewById(R.id.e105);
+        Button db = this.findViewById(R.id.e105);
         final MediaPlayer mp105 = MediaPlayer.create(this, R.raw.boro);
-        b.setOnClickListener(v105 -> mp105.start());
+        db.setOnClickListener(v105 -> mp105.start());
 
-        Button c = this.findViewById(R.id.e106);
+        Button sg = this.findViewById(R.id.e106);
         final MediaPlayer mp106 = MediaPlayer.create(this, R.raw.carbono);
-        c.setOnClickListener(v106 -> mp106.start());
+        sg.setOnClickListener(v106 -> mp106.start());
 
-        Button n = this.findViewById(R.id.e107);
+        Button bh = this.findViewById(R.id.e107);
         final MediaPlayer mp107 = MediaPlayer.create(this, R.raw.nitrogeno);
-        n.setOnClickListener(v107 -> mp107.start());
+        bh.setOnClickListener(v107 -> mp107.start());
 
-        Button o = this.findViewById(R.id.e108);
+        Button hs = this.findViewById(R.id.e108);
         final MediaPlayer mp108 = MediaPlayer.create(this, R.raw.oxigeno);
-        o.setOnClickListener(v108 -> mp108.start());
+        hs.setOnClickListener(v108 -> mp108.start());
 
-        Button f = this.findViewById(R.id.e109);
+        Button mt = this.findViewById(R.id.e109);
         final MediaPlayer mp109 = MediaPlayer.create(this, R.raw.fluor);
-        f.setOnClickListener(v109 -> mp109.start());
+        mt.setOnClickListener(v109 -> mp109.start());
 
-        Button ne = this.findViewById(R.id.e110);
+        Button ds = this.findViewById(R.id.e110);
         final MediaPlayer mp110 = MediaPlayer.create(this, R.raw.neon);
-        ne.setOnClickListener(v110 -> mp110.start());
+        ds.setOnClickListener(v110 -> mp110.start());
 
-        Button na = this.findViewById(R.id.e111);
+        Button rg = this.findViewById(R.id.e111);
         final MediaPlayer mp111 = MediaPlayer.create(this, R.raw.sodio);
-        na.setOnClickListener(v111 -> mp111.start());
+        rg.setOnClickListener(v111 -> mp111.start());
 
-        Button mg = this.findViewById(R.id.e112);
+        Button cn = this.findViewById(R.id.e112);
         final MediaPlayer mp112 = MediaPlayer.create(this, R.raw.magnesio);
-        mg.setOnClickListener(v112 -> mp112.start());
+        cn.setOnClickListener(v112 -> mp112.start());
 
-        Button al = this.findViewById(R.id.e113);
+        Button nh = this.findViewById(R.id.e113);
         final MediaPlayer mp113 = MediaPlayer.create(this, R.raw.aluminio);
-        al.setOnClickListener(v113 -> mp113.start());
+        nh.setOnClickListener(v113 -> mp113.start());
 
-        Button si = this.findViewById(R.id.e114);
+        Button fl = this.findViewById(R.id.e114);
         final MediaPlayer mp114 = MediaPlayer.create(this, R.raw.silicio);
-        si.setOnClickListener(v114 -> mp114.start());
+        fl.setOnClickListener(v114 -> mp114.start());
 
-        Button p = this.findViewById(R.id.e115);
+        Button mc = this.findViewById(R.id.e115);
         final MediaPlayer mp115 = MediaPlayer.create(this, R.raw.fosforo);
-        p.setOnClickListener(v115 -> mp115.start());
+        mc.setOnClickListener(v115 -> mp115.start());
 
-        Button s = this.findViewById(R.id.e116);
+        Button lv = this.findViewById(R.id.e116);
         final MediaPlayer mp116 = MediaPlayer.create(this, R.raw.azufre);
-        s.setOnClickListener(v116 -> mp116.start());
+        lv.setOnClickListener(v116 -> mp116.start());
 
-        Button cl = this.findViewById(R.id.e117);
+        Button ts = this.findViewById(R.id.e117);
         final MediaPlayer mp117 = MediaPlayer.create(this, R.raw.cloro);
-        cl.setOnClickListener(v117 -> mp117.start());
+        ts.setOnClickListener(v117 -> mp117.start());
 
-        Button ar = this.findViewById(R.id.e118);
+        Button og = this.findViewById(R.id.e118);
         final MediaPlayer mp118 = MediaPlayer.create(this, R.raw.argon);
-        ar.setOnClickListener(v118 -> mp118.start());
+        og.setOnClickListener(v118 -> mp118.start());
     }
     //https://stackoverflow.com/questions/5706942/possibility-to-add-parameters-in-button-xml
     /*<ImageButton (...) android:onClick="goToPage" android:tag="25"/>
