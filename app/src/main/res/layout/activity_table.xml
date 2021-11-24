@@ -55,24 +55,24 @@
 
                     <Button
                         android:id="@+id/e001"
+                        android:onClick="v001==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
-                        android:onClick="v001==this.id"
                         android:paddingVertical="10dp"
                         android:text="1\nHE\nHelio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
-                        android:id="@+id/e3"
+                        android:id="@+id/e2"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="1535dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="2\nHe\nhelio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -98,86 +98,86 @@
                         android:textSize="15sp" />
 
                     <Button
-                        android:id="@+id/e003"
+                        android:id="@+id/e004"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
-                        android:onClick="v003==this.id"
+                        android:onClick="v004==this.id"
                         android:paddingVertical="10dp"
-                        android:text="3\nLi\nLitio"
+                        android:text="4\nBe\nBerilio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
-                        android:id="@+id/e003"
+                        android:id="@+id/e005"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="965dp"
                         android:background="@drawable/button"
-                        android:onClick="v003==this.id"
+                        android:onClick="v005==this.id"
                         android:paddingVertical="10dp"
-                        android:text="3\nLi\nLitio"
+                        android:text="5\nB\nBoro"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
-                        android:id="@+id/e003"
+                        android:id="@+id/e006"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
-                        android:onClick="v003==this.id"
+                        android:onClick="v006==this.id"
                         android:paddingVertical="10dp"
-                        android:text="3\nLi\nLitio"
+                        android:text="6\nC\nCarbono"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
-                        android:id="@+id/e003"
+                        android:id="@+id/e007"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:onClick="v007==this.id"
+                        android:paddingVertical="10dp"
+                        android:text="7\nN\nNitrógeno"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:id="@+id/e008"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
-                        android:onClick="v003==this.id"
+                        android:onClick="v008==this.id"
                         android:paddingVertical="10dp"
-                        android:text="3\nLi\nLitio"
+                        android:text="8\nO\nOxígeno"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
-                        android:id="@+id/e003"
+                        android:id="@+id/e009"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
-                        android:onClick="v003==this.id"
+                        android:onClick="v009==this.id"
                         android:paddingVertical="10dp"
-                        android:text="3\nLi\nLitio"
+                        android:text="9\nF\nFlúor"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
-                        android:id="@+id/e003"
+                        android:id="@+id/e010"
+                        android:onClick="v010==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
-                        android:onClick="v003==this.id"
                         android:paddingVertical="10dp"
-                        android:text="3\nLi\nLitio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
-                        android:id="@+id/e003"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:onClick="v003==this.id"
-                        android:paddingVertical="10dp"
-                        android:text="3\nLi\nLitio"
+                        android:text="10\nNe\nNeón"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
@@ -191,36 +191,56 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/e011"
+                        android:onClick="v011==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="11\nNa\nSodio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e012"
+                        android:onClick="v012==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="12\nMg\nMagnesio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e013"
+                        android:onClick="v013==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="965dp"
                         android:background="@drawable/button"
                         android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
+                        android:text="13\nAl\nAluminio"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e014"
+                        android:onClick="v014==this.id"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:paddingVertical="10dp"
+                        android:text="14\nSi\nSilicio"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/e015"
+                        android:onClick="v015==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -231,6 +251,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e016"
+                        android:onClick="v016==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -241,6 +263,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e017"
+                        android:onClick="v017==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -251,16 +275,8 @@
                         android:textSize="15sp" />
 
                     <Button
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
+                        android:id="@+id/e018"
+                        android:onClick="v018==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -280,6 +296,8 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/e019"
+                        android:onClick="v019==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -290,6 +308,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e020"
+                        android:onClick="v020==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -300,6 +320,19 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e021"
+                        android:onClick="v021==this.id"                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:paddingVertical="10dp"
+                        android:text="1\nHE\nhelio"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/e022"
+                        android:onClick="v022==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -310,6 +343,32 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e023"
+                        android:onClick="v023==this.id"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:paddingVertical="10dp"
+                        android:text="23\nHE\nhelio"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/e024"
+                        android:onClick="v024==this.id"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:paddingVertical="10dp"
+                        android:text="24\nHE\nhelio"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/e025"
+                        android:onClick="v025==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -320,6 +379,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e026"
+                        android:onClick="v026==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -330,6 +391,20 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e027"
+                        android:onClick="v027==this.id"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:paddingVertical="10dp"
+                        android:text="27\nHE\nhelio"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/e028"
+                        android:onClick="v028==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -340,6 +415,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e029"
+                        android:onClick="v029==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -350,6 +427,20 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e030"
+                        android:onClick="v030==this.id"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:paddingVertical="10dp"
+                        android:text="30\nHE\nhelio"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/e031"
+                        android:onClick="v031==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -360,6 +451,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e032"
+                        android:onClick="v032==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -370,6 +463,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e033"
+                        android:onClick="v033==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -380,6 +475,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e034"
+                        android:onClick="v034==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -390,6 +487,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e035"
+                        android:onClick="v035==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -400,56 +499,8 @@
                         android:textSize="15sp" />
 
                     <Button
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
+                        android:id="@+id/e036"
+                        android:onClick="v036==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -468,6 +519,20 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/e037"
+                        android:onClick="v037==this.id"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/button"
+                        android:paddingVertical="10dp"
+                        android:text="37\nHE\nhelio"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/e038"
+                        android:onClick="v038==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -478,6 +543,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e039"
+                        android:onClick="v039==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -488,6 +555,8 @@
                         android:textSize="15sp" />
 
                     <Button
+                        android:id="@+id/e040"
+                        android:onClick="v040==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -498,16 +567,8 @@
                         android:textSize="15sp" />
 
                     <Button
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:background="@drawable/button"
-                        android:paddingVertical="10dp"
-                        android:text="1\nHE\nhelio"
-                        android:textColor="@color/white"
-                        android:textSize="15sp" />
-
-                    <Button
+                        android:id="@+id/e041"
+                        android:onClick="v041==this.id"
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
